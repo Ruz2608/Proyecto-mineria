@@ -1,0 +1,40 @@
+# ======================
+# Frontend
+# ======================
+amazon-guard-ai-main/node_modules/
+amazon-guard-ai-main/dist/
+amazon-guard-ai-main/build/
+amazon-guard-ai-main/.vite/
+amazon-guard-ai-main/.env
+amazon-guard-ai-main/.env.local
+amazon-guard-ai-main/.env.*.local
+amazon-guard-ai-main/*.log
+
+# ======================
+# Backend
+# ======================
+backend/__pycache__/
+backend/*.py[cod]
+backend/.venv/
+backend/venv/
+backend/env/
+backend/.env
+backend/.env.*
+backend/*.sqlite3
+backend/*.db
+backend/.pytest_cache/
+backend/.mypy_cache/
+backend/.ruff_cache/
+
+# ======================
+# General
+# ======================
+.DS_Store
+*.log
+.env
+.env.*
+*.local
+.idea/
+.vscode/
+*.swp
+*.swo
